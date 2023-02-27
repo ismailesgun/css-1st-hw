@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Another Page</title>
+    <link rel="stylesheet" href="css/index.css">
+    <style>
+        #side-nav{
+            height: 100%;
+            width: 160px;
+            position: relative; 
+            z-index: 1;
+            top: 0 px;
+            left: 0;
+            background-color: black;
+            overflow-x: hidden;
+            padding-top: 20px;
+            border: 3px solid seagreen;
+
+        }
+        #side-nav li{
+            color: grey;
+            font-size: 2em;
+        }
+        h2{
+            font-size: 35px;
+        }
+        p{
+            font-size: 20px;
+        }
+
+        
+    </style>
+</head>
+<body>
+    <!--Header Start-->
+    <header>
+        <h1>Yan Sayfa</h1>
+        <ul class="nav-bar">
+            <li><a href="index.html">Ana Sayfa</a></li>
+            <li><a href="#">Yan Sayfa</a></li>
+            
+        </ul>
+    </header>
+    <!--Header End-->
+
+    <!--Section Start-->
+    <section class="clearfix">
+        <!--Side Bar Start-->
+       <div id="side-nav">
+            <ul>
+                <li>Konu 1</li>
+                <li>Konu 2</li>
+            </ul>
+
+       </div>
+        <!--Side Bar End-->
+
+        <!--Article Start-->
+        <article class="top-art">
+            <h2>Konu 1</h2>
+            <p>Bu sayfa diğer sayfaya ek olarak yapılmıştır.</p>
+        </article>
+
+        <article class="bottom-art">
+            <h2>Konu 2</h2>
+            <p >Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum sit possimus commodi, fugiat pariatur et totam accusamus cum eligendi, consequuntur illo officia culpa quo! Facilis porro quasi commodi inventore maiores.</p>
+        </article>
+        <!--Article End-->
+    </section>
+    <!--Section End-->
+
+    <!--Footer Start-->
+    <footer>
+        <ul class="nav-bar">
+            <li><a href="index.html">Ana Sayfa</a></li>
+            <li><a href="#">Yan Sayfa</a></li>
+            
+        </ul>
+    </footer>
+    <!--Footer End-->
+    
+</body>
+
+</html>
